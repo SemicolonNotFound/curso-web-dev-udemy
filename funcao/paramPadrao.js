@@ -15,7 +15,7 @@ console.log(soma1(2, 4), soma1(), soma1(0, 0, 0))
 function soma2(a, b, c) {
     // nesse caso ele irá apenas identificar o valor 1
     a = a !== undefined ? a : 1
-    // se nos argumentos tiver valor, use-o. Se nao use o valor 1
+    // se nos argumentos(parametros) tiver valor, use-o. Se nao use o valor 1
     b = 1 in arguments ? b : 1
     // se nao for um numero, use o valor 1. Senão use o valor passado. **MAIS SEGURA**
     c = isNaN(c) ? 1 : c

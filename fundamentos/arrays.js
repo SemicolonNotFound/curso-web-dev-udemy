@@ -9,7 +9,7 @@ console.log(valores) //Porém para imprimir o array ele mostra itens vazios entr
 
 console.log(valores.length) //captura o tamanho total do array, quantos elementos tem no caso.
 
-valores.push({id: 3}, false, null, 'teste') //Array recebe vários tipos e podemos adicionar
+valores.push({id: 3}, false, null, 'teste') //Usamos push para adicionar uma nova informação no Array.
 console.log(valores)
 
 console.log(valores.pop()) // Ele pega o último valor do array e retorna e depois remove do array
@@ -17,3 +17,9 @@ delete valores[0] // removerá o valor do índice 0 do array
 console.log(valores)
 
 console.log(typeof valores) // o array é do tipo object em JS
+
+// const myArray = []
+// myArray.push(55, 124)
+// console.log(myArray)
+// myArray.push(8)
+// console.log(myArray)

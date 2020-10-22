@@ -15,7 +15,6 @@ console.log(array[0](2, 3)) // invoca a função de cálculo a + b q é indice 0
 const obj = {}
 obj.falar = function() { return 'Opa'}
 console.log(obj.falar())
-console.log(obj.falar())
 
 // Passar função como param de outra função
 function run(fun) {

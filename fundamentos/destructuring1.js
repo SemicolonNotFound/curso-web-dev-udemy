@@ -1,4 +1,5 @@
 // novo recurso do ES6 ou 2015
+// Destructuring é um recurso que permite extrair informações de Array de uma forma mais fácil.
 
 const pessoa = {
     nome: 'Ana',
@@ -20,5 +21,5 @@ const { sobrenome, bemHumorado = true} = pessoa
 console.log(sobrenome, bemHumorado)
 
 // erro pois tentamos acesso de um atributo não existente aninhado
-const { conta: { ag, num }} = pessoa 
-console.log(ag, num)
+// const { conta: { ag, num }} = pessoa 
+// console.log(ag, num)
